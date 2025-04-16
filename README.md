@@ -21,13 +21,15 @@ The steps involved and the data tables utilised for the tasks are illustrated in
 ### 2.1. Cleaning Data
 
 **Sheet:** `1. Clean`
+
 **Available Actions:**
 - `CLEAN DATA`: Executes all necessary data cleaning operations on the dataset.
 - `REFRESH`: Updates the data table in the "1. Clean" sheet using the latest information from the "0. Original Dataset" sheet.
 
 ### 2.2. Sales Summary
 
-**Sheet:** `2. Organise`v
+**Sheet:** `2. Organise`
+
 **Available Action:**
 - `REFRESH`: Applies updates in the following order—first, it cleans the data in the “1. Clean” sheet to ensure accuracy. Then, it refreshes all Data Tables in the “2. Organise” sheet to reflect the latest changes.
 
@@ -52,6 +54,7 @@ The Financial Model to estimate the following year (`2023`) cash flow of MegaWid
 
 
 **Sheets:** `3.1 Cash Flow Forecast` and `3.2 Cash Flow Dashboard`
+
 **Available Actions:**
 - `CHANGE PLANS`: Open the “Change Financial Plans” user form to modify loan and costing details.
 - `REFRESH DATA`: Applies updates in a sequential process—first, it cleans the data in the “1. Clean” sheet to ensure accuracy. Then, it updates the “Cash Flow Data” sheet with the cleaned data. Finally, the Balance Sheet in the “3.1 Cash Flow Forecast” sheet is refreshed to reflect the latest changes.
